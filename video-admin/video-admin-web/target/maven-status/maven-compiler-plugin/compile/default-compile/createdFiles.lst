@@ -1,0 +1,4 @@
+com\cky\controller\VideoController.class
+com\cky\controller\UserController.class
+com\cky\controller\HelloController.class
+com\cky\interceptor\LoginInterceptor.class
