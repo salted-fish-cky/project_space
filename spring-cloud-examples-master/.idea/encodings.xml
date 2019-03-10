@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-producer-consumer/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul/gateway-service-zuul-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul/gateway-service-zuul-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service-zuul/spring-cloud-producer-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-turbine/hystrix-dashboard-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-turbine/spring-cloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-turbine/spring-cloud-consumer-node1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-turbine/spring-cloud-consumer-node2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-turbine/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-eureka/spring-boot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-eureka/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-eureka/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-eureka/spring-cloud-producer-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka-bus/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-eureka/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-git/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-git/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-svn-refresh/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-svn-refresh/spring-cloud-config-client-refresh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-svn-refresh/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth-zipkin/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth-zipkin/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth-zipkin/spring-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth-zipkin/zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-producer-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/micro-weather-config-client/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/micro-weather-config-server/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/micro-weather-eureka-server/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/msa-weather-city-server/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/msa-weather-collection-server/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/msa-weather-eureka-client-zuul/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-weather/msa-weather-report-server/src/main/resources/application.properties" charset="UTF-8" />
+  </component>
+</project>
