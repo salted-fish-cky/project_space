@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [25/May/2018:13:59:43 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BAP20 HTTP/1.1" 200 84698 http-bio-8085-exec-6 8568
+0:0:0:0:0:0:0:1 - - [25/May/2018:13:59:46 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-7 4
+0:0:0:0:0:0:0:1 - - [25/May/2018:16:36:02 +0800] "GET /search.html?keyword=%E8%8D%A3%E8%80%8010 HTTP/1.1" 200 51655 http-bio-8085-exec-9 5897
+0:0:0:0:0:0:0:1 - - [25/May/2018:18:41:56 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BA HTTP/1.1" 200 75337 http-bio-8085-exec-6 7736
+0:0:0:0:0:0:0:1 - - [25/May/2018:18:42:26 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BA%E7%A5%A8 HTTP/1.1" 200 75349 http-bio-8085-exec-6 2265
+0:0:0:0:0:0:0:1 - - [25/May/2018:18:42:32 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BAp HTTP/1.1" 200 78161 http-bio-8085-exec-6 952
+0:0:0:0:0:0:0:1 - - [25/May/2018:18:42:43 +0800] "GET /search.html?keyword=%E5%8D%8E%E4%B8%BAP20 HTTP/1.1" 200 84698 http-bio-8085-exec-6 1988
+0:0:0:0:0:0:0:1 - - [25/May/2018:18:45:18 +0800] "GET /search.html?keyword=HUAWEI HTTP/1.1" 200 24549 http-bio-8085-exec-3 947

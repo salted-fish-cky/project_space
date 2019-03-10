@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:01:23 +0800] "GET /page/login HTTP/1.1" 200 10129 http-bio-8088-exec-1 360
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:01:24 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8088-exec-7 8
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:01:34 +0800] "POST /user/login HTTP/1.1" 500 10683 http-bio-8088-exec-8 929
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:01:40 +0800] "POST /user/login HTTP/1.1" 500 6486 http-bio-8088-exec-9 22
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:03:57 +0800] "POST /user/login HTTP/1.1" 500 6753 http-bio-8088-exec-10 1439
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:04:04 +0800] "POST /user/login HTTP/1.1" 500 4534 http-bio-8088-exec-1 19
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:05:56 +0800] "GET /page/login HTTP/1.1" 200 10129 http-bio-8088-exec-7 64
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:06:04 +0800] "POST /user/login HTTP/1.1" 500 4534 http-bio-8088-exec-7 139
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:06:45 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8088-exec-1 384
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:06:46 +0800] "GET /images/productinfo.png HTTP/1.1" 404 949 http-bio-8088-exec-2 63
