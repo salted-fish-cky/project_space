@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:06:55 +0800] "GET /cart/cart.html HTTP/1.1" 500 4900 http-bio-8090-exec-1 151
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:06:56 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8090-exec-2 1
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:07:27 +0800] "GET /cart/cart.html HTTP/1.1" 200 19752 http-bio-8090-exec-2 3129
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:20:41 +0800] "GET /cart/add/1023752.html?num=3 HTTP/1.1" 200 18544 http-bio-8090-exec-8 659
+0:0:0:0:0:0:0:1 - - [01/Jun/2018:13:20:43 +0800] "GET /cart/cart.html HTTP/1.1" 200 18061 http-bio-8090-exec-8 22
