@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Akka/Akka.iml" filepath="$PROJECT_DIR$/Akka/Akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigData_.iml" filepath="$PROJECT_DIR$/BigData_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spark/Spark.iml" filepath="$PROJECT_DIR$/Spark/Spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Storm/Storm.iml" filepath="$PROJECT_DIR$/Storm/Storm.iml" />
+      <module fileurl="file://F:/download/压缩包/HelloScala/src/main/scala/cn/cn.iml" filepath="F:/download/压缩包/HelloScala/src/main/scala/cn/cn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnMahout/learnMahout.iml" filepath="$PROJECT_DIR$/learnMahout/learnMahout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logmonitor20/logmonitor20.iml" filepath="$PROJECT_DIR$/logmonitor20/logmonitor20.iml" />
+      <module fileurl="file://F:/download/压缩包/HelloScala/src/main/main.iml" filepath="F:/download/压缩包/HelloScala/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala/scala.iml" filepath="$PROJECT_DIR$/scala/scala.iml" />
+    </modules>
+  </component>
+</project>
