@@ -1,0 +1,11 @@
+com\cky\config\ZKCuratorClient.class
+com\cky\controller\VideoController.class
+com\cky\controller\BaseContrller.class
+com\cky\controller\RegistLoginController.class
+com\cky\controller\UserController.class
+com\cky\config\WebMvcConfig.class
+com\cky\config\ZKCuratorClient$1.class
+com\cky\controller\BgmController.class
+com\cky\App.class
+com\cky\config\Swagger2.class
+com\cky\interceptor\MiniInterceptor.class

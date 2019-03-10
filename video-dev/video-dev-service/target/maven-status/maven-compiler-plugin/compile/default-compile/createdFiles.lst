@@ -1,0 +1,6 @@
+com\cky\service\BgmService.class
+com\cky\service\VideoService.class
+com\cky\service\impl\UserServiceImpl.class
+com\cky\service\impl\VideoServiceImpl.class
+com\cky\service\impl\BgmServiceImpl.class
+com\cky\service\UserService.class
