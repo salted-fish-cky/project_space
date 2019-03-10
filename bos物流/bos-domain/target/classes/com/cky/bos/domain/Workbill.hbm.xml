@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.bos.domain.Workbill" table="qp_workbill" schema="bos">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="type">
+            <column name="type" sql-type="varchar(20)" length="20"  />
+        </property>
+        <property name="pickstate">
+            <column name="pickstate" sql-type="varchar(20)" length="20"  />
+        </property>
+        <property name="buildtime">
+            <column name="buildtime" sql-type="timestamp"/>
+        </property>
+        <property name="attachbilltimes">
+            <column name="attachbilltimes" sql-type="int(11)"  />
+        </property>
+        <property name="remark">
+            <column name="remark" sql-type="varchar(255)"  />
+        </property>
+
+        <many-to-one lazy="false" name="noticebill" column="noticebill_id" class="com.cky.bos.domain.Noticebill"/>
+        <many-to-one lazy="false" name="staff" column="staff_id" class="com.cky.bos.domain.Staff"/>
+
+    </class>
+</hibernate-mapping>

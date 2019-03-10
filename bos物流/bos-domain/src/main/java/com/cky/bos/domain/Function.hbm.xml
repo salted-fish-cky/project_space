@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.bos.domain.Function" table="auth_function" schema="bos">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+            <generator class="uuid"></generator>
+        </id>
+        <property name="name">
+            <column name="name" sql-type="varchar(255)"/>
+        </property>
+        <property name="code">
+            <column name="code" sql-type="varchar(255)"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="varchar(255)"/>
+        </property>
+        <property name="page">
+            <column name="page" sql-type="varchar(255)"/>
+        </property>
+        <property name="generatemenu">
+            <column name="generatemenu" sql-type="varchar(255)"/>
+        </property>
+        <property name="zindex">
+            <column name="zindex" sql-type="int(11)"/>
+        </property>
+        <many-to-one lazy="false" fetch="select" name="parentFunction" class="com.cky.bos.domain.Function" column="pid"/>
+        <set name="children" inverse="true" lazy="false">
+            <key>
+                <column name="pid" length="32" />
+            </key>
+            <one-to-many not-found="ignore" class="com.cky.bos.domain.Function"/>
+        </set>
+        <set name="roles" inverse="true" table="role_function" schema="bos32">
+            <key>
+                <column name="function_id"/>
+            </key>
+            <many-to-many not-found="ignore" class="com.cky.bos.domain.Role">
+                <column name="role_id"/>
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

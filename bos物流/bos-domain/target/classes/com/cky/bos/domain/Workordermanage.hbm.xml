@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.bos.domain.Workordermanage" table="qp_workordermanage" schema="bos">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="arrivecity">
+            <column name="arrivecity" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="product">
+            <column name="product" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="num">
+            <column name="num" sql-type="int(11)"   />
+        </property>
+        <property name="weight">
+            <column name="weight" sql-type="double" precision="-1"   />
+        </property>
+        <property name="floadreqr">
+            <column name="floadreqr" sql-type="varchar(255)"   />
+        </property>
+        <property name="prodtimelimit">
+            <column name="prodtimelimit" sql-type="varchar(40)" length="40"   />
+        </property>
+        <property name="prodtype">
+            <column name="prodtype" sql-type="varchar(40)" length="40"   />
+        </property>
+        <property name="sendername">
+            <column name="sendername" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="senderphone">
+            <column name="senderphone" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="senderaddr">
+            <column name="senderaddr" sql-type="varchar(200)" length="200"   />
+        </property>
+        <property name="receivername">
+            <column name="receivername" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="receiverphone">
+            <column name="receiverphone" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="receiveraddr">
+            <column name="receiveraddr" sql-type="varchar(200)" length="200"   />
+        </property>
+        <property name="feeitemnum">
+            <column name="feeitemnum" sql-type="int(11)"   />
+        </property>
+        <property name="actlweit">
+            <column name="actlweit" sql-type="double" precision="-1"   />
+        </property>
+        <property name="vol">
+            <column name="vol" sql-type="varchar(20)" length="20"   />
+        </property>
+        <property name="managerCheck">
+            <column name="managerCheck" sql-type="varchar(1)" length="1"   />
+        </property>
+        <property name="updatetime">
+            <column name="updatetime" sql-type="date"   />
+        </property>
+    </class>
+</hibernate-mapping>

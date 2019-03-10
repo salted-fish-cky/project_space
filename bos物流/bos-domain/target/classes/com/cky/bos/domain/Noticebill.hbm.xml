@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.bos.domain.Noticebill" table="qp_noticebill" schema="bos">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="customerId">
+            <column name="customer_id" sql-type="varchar(32)" length="32" />
+        </property>
+        <property name="customerName">
+            <column name="customer_name" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="delegater">
+            <column name="delegater" sql-type="varchar(20)" length="20" />
+        </property>
+        <property name="telephone">
+            <column name="telephone" sql-type="varchar(20)" length="20" />
+        </property>
+        <property name="pickaddress">
+            <column name="pickaddress" sql-type="varchar(200)" length="200"/>
+        </property>
+        <property name="arrivecity">
+            <column name="arrivecity" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="product">
+            <column name="product" sql-type="varchar(20)" length="20" />
+        </property>
+        <property name="pickdate">
+            <column name="pickdate" sql-type="date"/>
+        </property>
+        <property name="num">
+            <column name="num" sql-type="int(11)"/>
+        </property>
+        <property name="weight">
+            <column name="weight" sql-type="double" precision="-1"/>
+        </property>
+        <property name="volume">
+            <column name="volume" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="remark">
+            <column name="remark" sql-type="varchar(255)" />
+        </property>
+        <property name="ordertype">
+            <column name="ordertype" sql-type="varchar(20)" length="20"/>
+        </property>
+        <many-to-one name="user" column="user_id" class="com.cky.bos.domain.User"/>
+        <many-to-one name="staff" column="staff_id" class="com.cky.bos.domain.Staff"/>
+
+        <set name="workbills" inverse="true">
+            <key>
+                <column name="noticebill_id"/>
+            </key>
+            <one-to-many not-found="ignore" class="com.cky.bos.domain.Workbill"/>
+        </set>
+    </class>
+</hibernate-mapping>

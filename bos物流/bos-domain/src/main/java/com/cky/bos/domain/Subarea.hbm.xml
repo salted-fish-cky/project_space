@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.bos.domain.Subarea" table="bc_subarea" schema="bos">
+        <id name="id">
+            <column name="id" sql-type="varchar(32)" length="32"/>
+            <generator class="uuid"></generator>
+        </id>
+        <property name="addresskey">
+            <column name="addresskey" sql-type="varchar(100)" length="100" />
+        </property>
+        <property name="startnum">
+            <column name="startnum" sql-type="varchar(30)" length="30" />
+        </property>
+        <property name="endnum">
+            <column name="endnum" sql-type="varchar(30)" length="30"/>
+        </property>
+        <property name="single">
+            <column name="single" sql-type="char(1)" length="1"/>
+        </property>
+        <property name="position">
+            <column name="position" sql-type="varchar(255)"/>
+        </property>
+        <many-to-one lazy="false" name="decidedzone" column="decidedzone_id" class="com.cky.bos.domain.Decidedzone"/>
+        <many-to-one lazy="false" name="region" column="region_id" class="com.cky.bos.domain.Region"/>
+    </class>
+</hibernate-mapping>
