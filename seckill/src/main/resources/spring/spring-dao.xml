@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:context="http://www.springframework.org/schema/context">
+
+    <!--1：配置数据库相关参数properties属性：${url}-->
+    <!--<context:property-placeholder location="classpath:jdbc.properties"/>-->
+    <!--配置数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver" />
+        <property name="jdbcUrl" value="jdbc:mysql://47.104.48.239:3306/seckill_02?characterEncoding=UTF-8" />
+        <property name="user" value="net1501_02" />
+        <property name="password" value="net1501_02" />
+
+        <!--<property name="maxPoolSize" value="30" />-->
+        <!--<property name="minPoolSize" value="10" />-->
+        <!--<property name="autoCommitOnClose" value="false" />-->
+        <!--<property name="checkoutTimeout" value="1000" />-->
+
+        <!--<property name="acquireRetryAttempts" value="2" />-->
+    </bean>
+
+<!--约定大于配置-->
+    <!--配置SqlSessionFactory对象-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+        <property name="typeAliasesPackage" value="org.seckill.entity" />
+        <property name="mapperLocations" value="classpath:mapper/*.xml" />
+    </bean>
+
+    <!--4：配置扫描DAO接口包，注入到SPRING容器中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+        <property name="basePackage" value="org.seckill.dao" />
+    </bean>
+
+</beans>
