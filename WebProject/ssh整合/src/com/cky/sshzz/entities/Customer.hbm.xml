@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.sshzz.entities.Customer" table="customer" schema="test" lazy="false">
+        <id name="custId">
+            <column name="cust_id" sql-type="int(11)"/>
+            <generator class="native"></generator>
+        </id>
+        <property name="custName">
+            <column name="cust_name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custLinkman">
+            <column name="cust_linkman" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custPhone">
+            <column name="cust_phone" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custMobile">
+            <column name="cust_mobile" sql-type="varchar(255)" not-null="true"/>
+        </property>
+
+        <many-to-one name="custLevel" column="cust_level" class="com.cky.sshzz.entities.BaseDict"></many-to-one>
+        <many-to-one name="custIndustry" column="cust_industry" class="com.cky.sshzz.entities.BaseDict"></many-to-one>
+        <many-to-one name="custSource" column="cust_source" class="com.cky.sshzz.entities.BaseDict"></many-to-one>
+
+        <set name="saleVisits" lazy="false">
+            <key column="visit_cust_id"></key>
+            <one-to-many class="com.cky.sshzz.entities.SaleVisit"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

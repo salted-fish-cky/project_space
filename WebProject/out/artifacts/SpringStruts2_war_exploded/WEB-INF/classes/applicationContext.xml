@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="com.cky.spring.struts2.bean.Person">
+        <property name="username" value="Spring"></property>
+    </bean>
+    <bean id="personAction" class="com.cky.spring.struts2.PersonAction" scope="prototype">
+        <property name="personService" ref="personService"></property>
+    </bean>
+
+    <bean id="personService" class="com.cky.spring.struts2.PersonService"></bean>
+</beans>

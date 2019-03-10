@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Cxf" removed="false">
+          <file>file://$MODULE_DIR$/src/cxf.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.20" level="application_server_libraries" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-xjc-ts-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-http-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/neethi-3.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-xjc-dv-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jettison-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/asm-3.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/relaxngDatatype-20020414.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-security-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-xjc-boolean-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/saaj-impl-1.3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-server-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jra-1.0-alpha-4.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jaxb-impl-2.2.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/opensaml-2.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/FastInfoset-1.2.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/openws-1.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jsr311-api-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-util-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/saaj-api-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-activation_1.1_spec-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-io-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/js-1.7R2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-xjc-bug671-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/isorelax-20030108.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-jaxws_2.2_spec-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/antlr-2.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/joda-time-1.6.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jaxb-api-2.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-lang-2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/msv-core-2010.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jetty-continuation-7.4.5.v20110725.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/serializer-2.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-jdk14-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-jms-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/stax2-api-3.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/velocity-1.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/woodstox-core-asl-4.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/wsdl4j-1.6.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/wss4j-1.6.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xalan-2.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xml-resolver-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xmlbeans-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xmlschema-core-2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xmlsec-1.4.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xmltooling-1.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xsdlib-2010.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jaxb-xjc-2.2.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jaxb-xjc-2.2.1.1.jar!/1.0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

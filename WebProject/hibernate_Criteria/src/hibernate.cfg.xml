@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--配置链接数据库的基本信息-->
+        <property name="connection.username">root</property>
+        <property name="hibernate.connection.password">123456</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
+
+        <!--配置hibernate的基本信息-->
+        <!--hibernate所使用的数据库类型-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!--执行操作时是否在控制台打印sql-->
+        <property name="hibernate.show_sql">true</property>
+        <!--是否对SQL进行格式化-->
+        <property name="hibernate.format_sql">true</property>
+        <!--指定自动生成数据表的策略-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping class="com.cky.criteria.entity.Customer"/>
+        <mapping resource="com/cky/criteria/entity/Customer.hbm.xml"/>
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

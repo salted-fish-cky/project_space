@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+        <bean id="helloWorld" class="com.cky.spring.bean.HelloWorld">
+            <property name="name" value="Spring"></property>
+        </bean>
+
+        <!--通过构造方法来配置bean的属性-->
+    <bean id="car1" class="com.cky.spring.bean.Car">
+        <constructor-arg index="0" type="java.lang.String" value="baoma"/>
+        <constructor-arg index="1" type="java.lang.String" value="shanghai"/>
+        <constructor-arg index="2" type="double" value="399999"/>
+
+    </bean>
+    <!--如果字面致包含特殊，可以使用<![CDATA[]]>包裹起来-->
+    <bean id="car2" class="com.cky.spring.bean.Car">
+
+        <constructor-arg index="0" type="java.lang.String" value="audi"/>
+        <constructor-arg index="1" type="java.lang.String" value="beijing"/>
+        <constructor-arg index="2" type="int" value="100"/>
+    </bean>
+
+    <bean id="person" class="com.cky.spring.bean.Person">
+        <property name="name" value="tom"></property>
+        <property name="age" value="51"></property>
+        <!--ref : 指向目标引用-->
+        <!--
+        <property name="car" ref="car1"></property>
+        -->
+        <!--内部bean,不能被外部引用，只能在内部使用-->
+        <property name="car">
+            <bean class="com.cky.spring.bean.Car">
+
+                <constructor-arg index="0" type="java.lang.String" value="Ford"/>
+                <constructor-arg index="1" type="java.lang.String" value="ChangAn"/>
+                <constructor-arg index="2" type="double" value="545154"/>
+            </bean>
+        </property>
+    </bean>
+
+
+<!--测试如何配置集合属性-->
+    <bean id="person2" class="com.cky.spring.collection.Person">
+        <property name="name" value="mike"></property>
+        <property name="age" value="45"></property>
+        <property name="car">
+            <list>
+                <ref bean="car1"></ref>
+                <ref bean="car2"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <!--配置Properties属性值-->
+    <bean id="dataSource" class="com.cky.spring.collection.DataSource">
+        <property name="properties">
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="jdbcUrl">jdbc:mysql:///test</prop>
+                <prop key="driverClass">com.mysql.jdbc.Driver</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <!--配置单例的集合bean，以供对个bean进行引用-->
+    <util:list id="cars">
+        <ref bean="car1"></ref>
+        <ref bean="car2"></ref>
+    </util:list>
+    <bean id="person3" class="com.cky.spring.collection.Person">
+        <property name="name" value="Jack"></property>
+        <property name="age" value="18"></property>
+        <property name="car" ref="cars"></property>
+    </bean>
+
+    <!--通过p命名空间为bean的属性赋值，需要先导入p命名空间-->
+    <bean id="person4" class="com.cky.spring.collection.Person" p:age="30" p:name="Queen" p:car-ref="cars">
+    </bean>
+
+
+    <!--使用bean的scope属性来配置bean的作用域
+    singleton：默认值，容器初始化时创建bean实例，在整个容器的生命周期内只创建这一个bean，单例的
+    prototype：原型的，容器初始化是不创建bean的实例，而在每次请求时都创建一个新的Bean实例，并返回-->
+    <bean id="car" class="com.cky.spring.bean.Car" scope="prototype">
+
+    </bean>
+</beans>

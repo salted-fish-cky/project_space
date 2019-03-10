@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="mapper.UserMapper">
+
+    <!--sql 片段-->
+    <sql id="selector">
+        SELECT * FROM USER
+    </sql>
+
+    <select id="findById" parameterType="Integer" resultType="User">
+        SELECT * FROM USER WHERE id = #{v}
+    </select>
+
+
+    <!--
+    #{}    表示占位符
+    ${}    表示字符串拼接
+    -->
+    <!--通过用户名称模糊查询-->
+    <select id="findListByUsername" parameterType="String" resultType="com.cky.mybatis.beans.User">
+        SELECT * FROM USER WHERE username LIKE "%"#{zz}"%"
+    </select>
+
+    <!--插入一条数据-->
+    <insert id="insertUser" parameterType="com.cky.mybatis.beans.User">
+        <selectKey keyProperty="id" resultType="Integer" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO USER(username,birthday,sex,address) VALUES (#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateUser" parameterType="com.cky.mybatis.beans.User">
+        UPDATE USER SET username=#{username},sex= #{sex},birthday = #{birthday},address = #{address} WHERE id = #{id}
+    </update>
+
+    <!--删除用户-->
+    <delete id="deleteById" parameterType="Integer">
+        DELETE FROM USER  WHERE id = #{v}
+    </delete>
+
+    <!--根据姓名和性别查询用户  where 可以去掉第一个前and-->
+    <select id="selectUserBySexAndUsername" parameterType="User" resultType="User">
+        <include refid="selector"/>
+        <where>
+            <if test="sex != null and sex != ''">
+                sex = #{sex}
+            </if>
+            <if test="username != null and username != ''">
+                AND username = #{username}
+            </if>
+        </where>
+    </select>
+</mapper>

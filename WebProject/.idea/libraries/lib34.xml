@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib34">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/commons-io-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/mchange-commons-java-0.2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/_war_exploded2/WEB-INF/lib/commons-dbutils-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="testTag" class="com.cky.struts2.demo.Product" method="testTag">
+            <result>/common-tag.jsp</result>
+        </action>
+        
+        <action name="save" class="com.cky.struts2.demo.UserAction" method="save">
+            <result name="input">/form-tag.jsp</result>
+        </action>
+
+        <action name="emp-*" class="com.cky.struts2.example.Employee" method="{1}">
+            <result name="{1}">/emp-{1}.jsp</result>
+        </action>
+    </package>
+</struts>

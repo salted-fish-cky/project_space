@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.sshzz.entities.User" table="user" schema="test" lazy="false">
+        <id name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+            <generator class="native"></generator>
+        </id>
+        <property name="userCode">
+            <column name="user_code" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="userName">
+            <column name="user_name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="userPassword">
+            <column name="user_password" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="userState">
+            <column name="user_state" sql-type="varchar(255)" not-null="false"/>
+        </property>
+
+        <set name="saleVisits" lazy="false">
+            <key column="visit_user_id"></key>
+            <one-to-many class="com.cky.sshzz.entities.SaleVisit"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

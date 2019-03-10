@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/在线书城案例/web/WEB-INF/lib/commons-dbutils-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

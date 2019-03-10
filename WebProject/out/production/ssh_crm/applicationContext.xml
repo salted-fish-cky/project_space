@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+        <property name="user" value="${jdbc.user}" ></property>
+        <property name="password" value="${jdbc.password}" ></property>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}" ></property>
+        <property name="driverClass" value="${jdbc.driverClass}" ></property>
+        <property name="initialPoolSize" value="${jdbc.initPoolSize}" ></property>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}" ></property>
+    </bean>
+
+
+    <!--配置Hibernate的SessionFactory实例,通过Spring提供的localSessionFactoryBean进行配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--配置数据源属性-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--配置hibernate配置文件的位置及名称-->
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
+        <!--配置hibernate映射文件的位置及名称，可以使用通配符-->
+        <property name="mappingLocations" value="classpath:com/cky/ssh/entities/*.hbm.xml"></property>
+    </bean>
+</beans>

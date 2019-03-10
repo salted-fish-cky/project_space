@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/helloworld-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.26-incubating.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/struts2-core-2.5.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Maven_helloworld/target/helloworld-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

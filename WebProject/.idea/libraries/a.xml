@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="a">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/test_war_exploded/download/a.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

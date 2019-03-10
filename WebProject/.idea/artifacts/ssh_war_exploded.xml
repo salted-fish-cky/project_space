@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssh整合:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssh_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssh整合/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssh整合" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.2.12-5.2.12" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+          <element id="file-copy" path="E:/struts-2.5.13-all/struts-2.5.13/lib/struts2-spring-plugin-2.5.13.jar" />
+          <element id="file-copy" path="E:/struts-2.5.13-all/struts-2.5.13/lib/spring-web-4.1.6.RELEASE.jar" />
+          <element id="library" level="project" name="lib25" />
+          <element id="library" level="project" name="Struts 2-2.5.14.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-oxm-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/文件上传案例/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/文件上传案例/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/ssh整合/lib/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/ssh整合/lib/aspectj-weaver.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/ssh整合/lib/fastjson-1.2.8.jar" />
+          <element id="file-copy" path="E:/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="E:/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="E:/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-tx-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-test-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-orm-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-messaging-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-jms-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-aop-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-aspects-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-beans-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-context-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-context-support-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-core-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-expression-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-instrument-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-instrument-tomcat-4.3.12.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/Spring_helloword/lib/spring-jdbc-4.3.12.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

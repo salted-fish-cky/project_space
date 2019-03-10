@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" extends="struts-default" namespace="/">
+        <interceptors>
+            <interceptor-stack name="uploadStack">
+                <interceptor-ref name="defaultStack">
+                    <param name="fileUpload.maximumSize">2000000</param>
+                    <!--限制文件类型和扩展名-->
+                    <!--<param name="fileUpload.allowedTypes">text/html,text/xml</param>-->
+                    <!--<param name="fileUpload.allowedExtensions">jpg,txt</param>-->
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="uploadStack"></default-interceptor-ref>
+        <action name="testUpload" class="com.cky.struts2.upload.UploadAction">
+            <result>/success.jsp</result>
+            <result name="input">/upload.jsp</result>
+        </action>
+        <action name="test_*" class="com.cky.struts2.download.DownloadAction" method="{1}">
+            <result name="{1}">/download.jsp</result>
+            <result type="stream">
+                <param name="bufferSize">2048</param>
+            </result>
+            <allowed-methods>date,download</allowed-methods>
+        </action>
+    </package>
+</struts>

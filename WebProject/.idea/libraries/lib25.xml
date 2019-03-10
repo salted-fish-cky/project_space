@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="lib25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-expression-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-oxm-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-aspects-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-test-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-context-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-orm-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-instrument-tomcat-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-messaging-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-context-support-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-jdbc-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-tx-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-instrument-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-jms-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-core-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-aop-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_AOP/lib/spring-beans-4.3.12.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

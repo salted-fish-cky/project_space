@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="mapper.OderMapper">
+
+    <resultMap id="orders" type="Orders">
+        <result column="user_id" property="userId"/>
+         <!--一对一-->
+        <association property="user" javaType="User">
+            <result column="username" property="username"/>
+        </association>
+    </resultMap>
+    <select id="selectOrders" resultMap="orders">
+        SELECT
+        o.id,
+        o.user_id,
+        o.number,
+        o.createtime,
+        u.username
+        FROM orders o
+        LEFT JOIN USER u
+        ON o.user_id = u.id
+    </select>
+
+    <resultMap id="user" type="User">
+        <id column="user_id" property="id"/>
+        <id column="username" property="username"/>
+        
+        <!--一对多-->
+        <collection property="ordersList" ofType="Orders">
+            <result column="id" property="id"/>
+            <result column="number" property="number"/>
+        </collection>
+    </resultMap>
+
+        <!--一对多-->
+    <select id="selectUserList" resultMap="user">
+        SELECT
+        o.id,
+        o.user_id,
+        o.number,
+        o.createtime,
+        u.username
+        FROM user u
+        LEFT JOIN orders o
+        ON o.user_id = u.id
+    </select>
+</mapper>

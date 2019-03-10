@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.sshzz.entities.BaseDict" table="base_dict" schema="test">
+        <id name="dictId">
+            <column name="dict_id" sql-type="int(11)"/>
+            <generator class="assigned"></generator>
+        </id>
+        <property name="dictTypeCode">
+            <column name="dict_type_code" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="dictTypeName">
+            <column name="dict_type_name" sql-type="varchar(255)"  not-null="false"/>
+        </property>
+        <property name="dictItemName">
+            <column name="dict_item_name" sql-type="varchar(255)"  not-null="false"/>
+        </property>
+        <property name="dictItemCode">
+            <column name="dict_item_code" sql-type="varchar(255)"  not-null="false"/>
+        </property>
+        <property name="dictSort">
+            <column name="dict_sort" sql-type="int(255)"  not-null="false"/>
+        </property>
+        <property name="dictEnable">
+            <column name="dict_enable" sql-type="int(255)"  not-null="false"/>
+        </property>
+        <property name="dictMemo">
+            <column name="dict_memo" sql-type="varchar(255)"  not-null="false"/>
+        </property>
+
+
+    </class>
+</hibernate-mapping>

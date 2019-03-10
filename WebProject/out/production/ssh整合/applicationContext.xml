@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+        <property name="user" value="${jdbc.user}" ></property>
+        <property name="password" value="${jdbc.password}" ></property>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}" ></property>
+        <property name="driverClass" value="${jdbc.driverClass}" ></property>
+        <property name="initialPoolSize" value="${jdbc.initPoolSize}" ></property>
+        <property name="maxPoolSize" value="${jdbc.maxPoolSize}" ></property>
+    </bean>
+
+
+    <!--配置Hibernate的SessionFactory实例,通过Spring提供的localSessionFactoryBean进行配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--配置数据源属性-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--配置hibernate配置文件的位置及名称-->
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
+        <!--配置hibernate映射文件的位置及名称，可以使用通配符-->
+        <property name="mappingLocations" value="classpath:/com/cky/sshzz/entities/*.hbm.xml"></property>
+    </bean>
+
+    <!--核心事物管理器-->
+    <bean class="org.springframework.orm.hibernate5.HibernateTransactionManager" id="transactionManager">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!--配置通知-->
+    <tx:advice transaction-manager="transactionManager" id="txAdvice">
+        <tx:attributes>
+            <tx:method name="save*" isolation="REPEATABLE_READ" read-only="false"/>
+            <tx:method name="persist*" isolation="REPEATABLE_READ"  read-only="false"/>
+            <tx:method name="update*" isolation="REPEATABLE_READ"  read-only="false"/>
+            <tx:method name="modify*" isolation="REPEATABLE_READ"  read-only="false"/>
+            <tx:method name="delete*" isolation="REPEATABLE_READ" read-only="false"/>
+            <tx:method name="remove*" isolation="REPEATABLE_READ" read-only="false"/>
+            <tx:method name="get*" isolation="REPEATABLE_READ"  read-only="true"/>
+            <tx:method name="find*" isolation="REPEATABLE_READ"  read-only="true"/>
+            <tx:method name="*" isolation="REPEATABLE_READ"  read-only="false"/>
+
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="pointCut" expression="execution(* com.cky.sshzz.service.impl.*.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointCut"></aop:advisor>
+    </aop:config>
+</beans>

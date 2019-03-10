@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.sshzz.entities.SaleVisit" table="sale_visit" schema="test" lazy="false">
+        <id name="visitId">
+            <column name="visit_id" sql-type="varchar(255)"/>
+            <generator class="uuid"></generator>
+        </id>
+        <property name="visitTime">
+            <column name="visit_time" sql-type="datetime" not-null="false"/>
+        </property>
+        <property name="visitInterviewwee">
+            <column name="visit_interviewwee" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="visitAddress">
+            <column name="visit_address" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="visitDetail">
+            <column name="visit_detail" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="visitNexttime">
+            <column name="visit_nexttime" sql-type="datetime" not-null="false"/>
+        </property>
+        <many-to-one name="customer" column="visit_cust_id" class="com.cky.sshzz.entities.Customer" lazy="false"></many-to-one>
+        <many-to-one name="user" column="visit_user_id" class="com.cky.sshzz.entities.User" lazy="false"></many-to-one>
+    </class>
+</hibernate-mapping>

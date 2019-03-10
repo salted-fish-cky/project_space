@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>cky</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>1234</param-value>
+    </context-param>
+<context-param>
+        <param-name>encording</param-name>
+        <param-value>utf-8</param-value>
+    </context-param>
+
+
+    <filter-mapping>
+        <filter-name>UserNameFilter</filter-name>
+        <url-pattern>/hello.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>PasswordFilter</filter-name>
+        <url-pattern>/hello.jsp</url-pattern>
+    </filter-mapping>
+
+    <!--用户信息放入到session中键的名字-->
+    <context-param>
+        <param-name>userSessionKey</param-name>
+        <param-value>USERSESSIONKEY</param-value>
+    </context-param>
+    <!--若未登陆需重定向的页面-->
+    <context-param>
+        <param-name>redirectPage</param-name>
+        <param-value>/login/login.jsp</param-value>
+    </context-param>
+    <!--不需要拦截的url列表-->
+    <context-param>
+        <param-name>uncheckedUrls</param-name>
+        <param-value>/login/login.jsp,/login/list.jsp,/login/a.jsp,/login/doLogin.jsp</param-value>
+    </context-param>
+</web-app>

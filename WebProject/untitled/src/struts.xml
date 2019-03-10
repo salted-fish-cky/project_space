@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <!--配置Struts2可以受理请求的扩展名-->
+    <constant name="struts.action.extension" value="action,do"></constant>
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="TestActionContext" class="com.cky.demo.struts.TestActionContextAction">
+            <result>/test-actionContext.jsp</result>
+        </action>
+        <action name="TestAware" class="com.cky.demo.struts.TestAwareAction">
+            <result>/test-awareAction.jsp</result>
+        </action>
+        <action name="TestServletAction" class="com.cky.demo.struts.TestServletActionContextAction">
+            <result>/test-awareAction.jsp</result>
+        </action>
+
+        <action name="TestServletAware" class="com.cky.demo.struts.TestServletAwareAction">
+            <result>/test-awareAction.jsp</result>
+        </action>
+
+        <action name="login-ui">
+            <result>/login.jsp</result>
+        </action>
+        <action name="user-login" class="com.cky.demo.struts.UserAction">
+            <result name="login-success">/login-sucess.jsp</result>
+        </action>
+
+        <action name="logout" class="com.cky.demo.struts.UserAction" method="logout">
+            <result name="logout-success">/login.jsp</result>
+        </action>
+    </package>
+
+    <!--通配符-->
+    <package name="test" namespace="/test" extends="struts-default">
+        <action name="user-*" class="com.cky.demo.struts.TongPeiFu" method="{1}">
+            <result name="{1}">/login.jsp</result>
+        </action>
+    </package>
+</struts>

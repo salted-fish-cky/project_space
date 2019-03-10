@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ajax/Ajax.iml" filepath="$PROJECT_DIR$/Ajax/Ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EL和JSTL/EL和JSTL.iml" filepath="$PROJECT_DIR$/EL和JSTL/EL和JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate_helloword/Hibernate_helloword.iml" filepath="$PROJECT_DIR$/Hibernate_helloword/Hibernate_helloword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVC/MVC.iml" filepath="$PROJECT_DIR$/MVC/MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session/Session.iml" filepath="$PROJECT_DIR$/Session/Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_CRUD/SpringMVC_CRUD.iml" filepath="$PROJECT_DIR$/SpringMVC_CRUD/SpringMVC_CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC_helloworld/SpringMVC_helloworld.iml" filepath="$PROJECT_DIR$/SpringMVC_helloworld/SpringMVC_helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC整合MyBatis/SpringMVC整合MyBatis.iml" filepath="$PROJECT_DIR$/SpringMVC整合MyBatis/SpringMVC整合MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_AOP/Spring_AOP.iml" filepath="$PROJECT_DIR$/Spring_AOP/Spring_AOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_helloword/Spring_helloword.iml" filepath="$PROJECT_DIR$/Spring_helloword/Spring_helloword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_jdbc/Spring_jdbc.iml" filepath="$PROJECT_DIR$/Spring_jdbc/Spring_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring整合MyBatis/Spring整合MyBatis.iml" filepath="$PROJECT_DIR$/Spring整合MyBatis/Spring整合MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring整合SpringMVC/Spring整合SpringMVC.iml" filepath="$PROJECT_DIR$/Spring整合SpringMVC/Spring整合SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring整合Struts2/Spring整合Struts2.iml" filepath="$PROJECT_DIR$/Spring整合Struts2/Spring整合Struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring整合hibernate/Spring整合hibernate.iml" filepath="$PROJECT_DIR$/Spring整合hibernate/Spring整合hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2/Struts2.iml" filepath="$PROJECT_DIR$/Struts2/Struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_CRUD/Struts2_CRUD.iml" filepath="$PROJECT_DIR$/Struts2_CRUD/Struts2_CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_ognl/Struts2_ognl.iml" filepath="$PROJECT_DIR$/Struts2_ognl/Struts2_ognl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_国际化/Struts2_国际化.iml" filepath="$PROJECT_DIR$/Struts2_国际化/Struts2_国际化.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_文件上传与下载/Struts2_文件上传与下载.iml" filepath="$PROJECT_DIR$/Struts2_文件上传与下载/Struts2_文件上传与下载.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_类型转换错误消息/Struts2_类型转换错误消息.iml" filepath="$PROJECT_DIR$/Struts2_类型转换错误消息/Struts2_类型转换错误消息.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2_验证/Struts2_验证.iml" filepath="$PROJECT_DIR$/Struts2_验证/Struts2_验证.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm32/crm32.iml" filepath="$PROJECT_DIR$/crm32/crm32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxf_client/cxf_client.iml" filepath="$PROJECT_DIR$/cxf_client/cxf_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cxf_service/cxf_service.iml" filepath="$PROJECT_DIR$/cxf_service/cxf_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileUpload/fileUpload.iml" filepath="$PROJECT_DIR$/fileUpload/fileUpload.iml" />
+      <module fileurl="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate_Criteria/hibernate_Criteria.iml" filepath="$PROJECT_DIR$/hibernate_Criteria/hibernate_Criteria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate_HQL/hibernate_HQL.iml" filepath="$PROJECT_DIR$/hibernate_HQL/hibernate_HQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate_session/hibernate_session.iml" filepath="$PROJECT_DIR$/hibernate_session/hibernate_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate_映射/hibernate_映射.iml" filepath="$PROJECT_DIR$/hibernate_映射/hibernate_映射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssh/src/main/main.iml" filepath="$PROJECT_DIR$/maven_ssh/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven_helloworld/src/main/main1.iml" filepath="$PROJECT_DIR$/Maven_helloworld/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh整合/ssh整合.iml" filepath="$PROJECT_DIR$/ssh整合/ssh整合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2_表单的重复提交问题/struts2_表单的重复提交问题.iml" filepath="$PROJECT_DIR$/struts2_表单的重复提交问题/struts2_表单的重复提交问题.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssh/src/main/test/test1.iml" filepath="$PROJECT_DIR$/maven_ssh/src/main/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/在线书城案例/在线书城案例.iml" filepath="$PROJECT_DIR$/在线书城案例/在线书城案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/文件上传案例/文件上传案例.iml" filepath="$PROJECT_DIR$/文件上传案例/文件上传案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/权限管理/权限管理.iml" filepath="$PROJECT_DIR$/权限管理/权限管理.iml" />
+    </modules>
+  </component>
+</project>

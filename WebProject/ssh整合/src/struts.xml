@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" extends="struts-default" namespace="/">
+        <interceptors>
+            <!--注册拦截器-->
+            <interceptor name="privilegeInterceptor" class="com.cky.sshzz.interceptor.PrivilegeInterceptor"></interceptor>
+            <!--配置拦截器栈-->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="privilegeInterceptor">
+                    <param name="excludeMethods">login,regist</param>
+                </interceptor-ref>
+                <interceptor-ref name="defaultStack" ></interceptor-ref>
+            </interceptor-stack>
+
+        </interceptors>
+        <!--指定默认拦截器栈-->
+        <default-interceptor-ref name="myStack"></default-interceptor-ref>
+        
+        <!--全局结果集配置-->
+        <global-results>
+            <result name="toLogin" type="redirect">/login.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.RuntimeException" result="error"></exception-mapping>
+        </global-exception-mappings>
+
+        <action name="CustomerAction_*" class="customerAction" method="{1}">
+            <result name="list">/jsp/customer/list.jsp</result>
+            <result name="edit">/jsp/customer/add.jsp</result>
+            <result name="toList" type="redirectAction">
+                <param name="namespace">/</param>
+                <param name="actionName">CustomerAction_list</param>
+            </result>
+            <result name="industryCount">/jsp/customer/industryCount.jsp</result>
+            <allowed-methods>list,add,toEdit,industry</allowed-methods>
+        </action>
+        <action name="BaseDictAction" class="baseDictAction" method="execute">
+        </action>
+        
+        <!--联系人action配置-->
+        <action name="LinkManAction_*" class="linkManAction" method="{1}">
+            <result name="toList" type="redirectAction">
+                <param name="namespace">/</param>
+                <param name="actionName">LinkManAction_list</param>
+            </result>
+            <result name="error">/jsp/linkman/list.jsp</result>
+
+            <result name="list">/jsp/linkman/list.jsp</result>
+            <result name="add">/jsp/linkman/add.jsp</result>
+            <allowed-methods>add,list,toEdit</allowed-methods>
+        </action>
+        <!--用户登陆注册Action配置-->
+        <action name="UserAction_*" class="userAction" method="{1}">
+            <result name="regist">/regist.jsp</result>
+            <result name="login">/login.jsp</result>
+            <result name="toHome" type="redirect">/index.htm</result>
+            <allowed-methods>login,regist,list</allowed-methods>
+        </action>
+        <!--客户拜访记录Action-->
+        <action name="SaleVisitAction_*" class="saleVisitAction" method="{1}">
+            <result name="toList" type="redirectAction">
+                <param name="namespace">/</param>
+                <param name="actionName">SaleVisitAction_list</param>
+            </result>
+
+            <result name="list">/jsp/salevisit/list.jsp</result>
+            <result name="add">/jsp/salevisit/add.jsp</result>
+            <allowed-methods>add,list,toEdit</allowed-methods>
+        </action>
+    </package>
+</struts>

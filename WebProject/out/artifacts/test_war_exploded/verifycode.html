@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>切换验证码</title>
+</head>
+<body>
+    <center>
+        <h2>切换验证码</h2>
+        <image src="code" id="img" style="cursor: pointer; vertical-align: baseline"></image>
+        <!--<img src="code" id="img"/>-->
+        <input type="button" value="看不清，更换验证码" onclick="changeCode()" id="btn">
+    </center>
+<script type="text/javascript">
+    var img = document.getElementById("img");
+    function  changeCode() {
+        img.src='code?ts='+new Date().getTime();
+    }
+</script>
+</body>
+</html>

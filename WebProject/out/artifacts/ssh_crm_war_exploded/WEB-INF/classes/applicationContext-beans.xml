@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="customerDao" class="com.cky.ssh.dao.impl.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean class="com.cky.ssh.service.impl.CustomerServiceImpl" id="customerService">
+        <property name="cd" ref="customerDao"></property>
+    </bean>
+
+    <bean class="com.cky.ssh.action.CustomerAction" id="customerAction">
+        <property name="sc" ref="customerService"></property>
+    </bean>
+</beans>

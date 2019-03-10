@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.sshzz.entities.LinkMan" table="cst_linkman" schema="test">
+        <id name="lkmId">
+            <column name="lkm_id" sql-type="int(11)"/>
+            <generator class="native"></generator>
+        </id>
+        <property name="lkmGender">
+            <column name="lkm_gender" sql-type="int(255)"/>
+        </property>
+        <property name="lkmName">
+            <column name="lkm_name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="lkmPhone">
+            <column name="lkm_phone" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="lkmEmail">
+            <column name="lkm_email" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="lkmQq">
+            <column name="lkm_qq" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="lkmMemo">
+            <column name="lkm_memo" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <property name="lkmPosition">
+            <column name="lkm_position" sql-type="varchar(255)" not-null="false"/>
+        </property>
+        <!--<property name="lkmCustId">-->
+            <!--<column name="lkm_cust_id" sql-type="int(11)" />-->
+        <!--</property>-->
+        <many-to-one name="customer" class="com.cky.sshzz.entities.Customer" column="lkm_cust_id"/>
+    </class>
+</hibernate-mapping>

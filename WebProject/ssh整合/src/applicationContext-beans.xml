@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="customerDao" class="com.cky.sshzz.dao.impl.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean class="com.cky.sshzz.service.impl.CustomerServiceImpl" id="customerService">
+        <property name="cd" ref="customerDao"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.action.CustomerAction" id="customerAction" scope="prototype">
+        <property name="sc" ref="customerService"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.dao.impl.BaseDictDaoImpl" id="baseDictDao" >
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.service.impl.BaseDictServiceImpl" id="baseDictService" >
+        <property name="basedictDao" ref="baseDictDao"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.action.BaseDictAction" id="baseDictAction" scope="prototype">
+        <property name="baseDictService" ref="baseDictService"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.dao.impl.LinkManDaoImpl" id="linkManDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.service.impl.LinkManServiceImpl" id="linkManService">
+        <property name="linkManDao" ref="linkManDao"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.action.LinkManAction" id="linkManAction" scope="prototype">
+        <property name="linkManService" ref="linkManService"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.dao.impl.UserDaoImpl" id="userDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean class="com.cky.sshzz.service.impl.UserServiceImpl" id="userService">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <bean class="com.cky.sshzz.action.UserAction" id="userAction" scope="prototype">
+        <property name="userService" ref="userService"></property>
+    </bean>
+
+    <bean class="com.cky.sshzz.dao.impl.SaleVisitDaoImpl" id="saleVisitDao">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean class="com.cky.sshzz.service.impl.SaleVisitServiceImpl" id="saleVisitService">
+        <property name="saleVisitDao" ref="saleVisitDao"></property>
+    </bean>
+    <bean class="com.cky.sshzz.action.SaleVisitAction" id="saleVisitAction" scope="prototype">
+        <property name="saleVisitService" ref="saleVisitService"></property>
+    </bean>
+</beans>

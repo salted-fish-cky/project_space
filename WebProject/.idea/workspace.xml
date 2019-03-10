@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVC整合MyBatis:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dfc6f9a-5ad4-4b6b-b211-352bc713bb70" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WebProject$GeneratorSqlmap.coverage" NAME="GeneratorSqlmap Coverage Results" MODIFIED="1517566282107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="test@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="test@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="test@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+        <item name="customer" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="EmployeeHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringMVC_CRUD/src/com/cky/springmvc/crud/handler/EmployeeHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/controller/ItemsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="40" column="69" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMVCTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringMVC_helloworld/src/com/cky/springmvc/handlers/SpringMVCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4692">
+              <caret line="215" column="7" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringMVC_helloworld/web/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orders.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/mymappers/Orders.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <marker date="1517301188379" expanded="true" signature="579:752" ph="SELECT o.id,... orders" />
+                <marker date="1517301188379" expanded="true" signature="1211:1384" ph="SELECT o.id,... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorSqlmap.java" pinned="false" current-in-tab="false">
+        <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/GeneratorSqlmap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/sqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="struts_2_5" />
+        <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>updateByPrimaryKeySelective</find>
+      <find>updateByPrimaryKeyWithBLOBs</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cxf_client/src/com/cky/client/HelloService.java" />
+        <option value="$PROJECT_DIR$/cxf_client/src/com/cky/client/cxf.xml" />
+        <option value="$PROJECT_DIR$/cxf_service/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/crm32/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/beans/Customer.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/test/com/cky/crm/service/CustomerServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/test/Test.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/test/TestCustomer.java" />
+        <option value="$PROJECT_DIR$/cxf_client/src/com/cky/client/Customer.java" />
+        <option value="$PROJECT_DIR$/cxf_client/src/cxf.xml" />
+        <option value="$PROJECT_DIR$/crm32/src/cxf.xml" />
+        <option value="$PROJECT_DIR$/cxf_client/src/com/cky/client/CustomerService.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/Main.java" />
+        <option value="$PROJECT_DIR$/cxf_client/src/com/cky/client/Main.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/crm32/src/com/cky/crm/service/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/mymappers/User.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/com/cky/mybatis/beans/Orders.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/junit/Test.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/mymappers/Orders.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/com/cky/mybatis/beans/User.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/db.properties" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/com/cky/mybatis/pojo/User.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/com/cky/mybatis/test/JunitTst.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/com/cky/mybatis/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/com/cky/mybatis/test/JunitTest.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/sqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/com/cky/mybatis/beans/Bean.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/mapper/OderMapper.java" />
+        <option value="$PROJECT_DIR$/Spring整合MyBatis/src/com/cky/mybatis/mapper/UserMapper.xml" />
+        <option value="F:/黑马视频/mybatis_day01/mybatis/01.参考资料/逆向工程/generatorSqlmapCustom/generatorConfig.xml" />
+        <option value="F:/黑马视频/mybatis_day01/mybatis/01.参考资料/逆向工程/generatorSqlmapCustom/src/GeneratorSqlmap.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/sqlMapConfig.xml" />
+        <option value="F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/GeneratorSqlmap.java" />
+        <option value="$PROJECT_DIR$/generatorSqlmapCustom/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/generatorSqlmapCustom/src/GeneratorSqlmap.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/db.properties" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/jsp/itemList.jsp" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/service/ItemsService.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/service/ItemsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/QueryVo.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/conversion/DateConveter.java" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/springmvc.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/jsp/editItem.jsp" />
+        <option value="$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/controller/ItemsController.java" />
+        <option value="F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/generatorConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC整合MyBatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC整合MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC整合MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC整合MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh整合" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JPA.DatabaseSchemaImportDialog" value="1af83b42-9b33-4c68-bbf1-1190a8441ddd" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ssh.entities" />
+      <recent name="com.cky.ssh.entities" />
+      <recent name="com.cky.criteria.entity" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cky.crm.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\WebProject\SpringMVC整合MyBatis\web\WEB-INF\lib" />
+      <recent name="E:\idea_workspace\WebProject\SpringMVC整合MyBatis\src\com\cky\springmvc" />
+      <recent name="E:\idea_workspace\WebProject\generatorSqlmapCustom" />
+      <recent name="E:\idea_workspace\WebProject\generatorSqlmapCustom\src" />
+      <recent name="E:\idea_workspace\WebProject\SpringMVC整合MyBatis\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cky.criteria.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\黑马视频\mybatis_day02\mybatis_day02\generatorSqlmapCustom" />
+      <recent name="F:\黑马视频\mybatis_day02\mybatis_day02\generatorSqlmapCustom\src" />
+      <recent name="F:\黑马视频\mybatis_day01\mybatis\01.参考资料\逆向工程\generatorSqlmapCustom\src" />
+      <recent name="E:\idea_workspace\WebProject\cxf_client\src" />
+      <recent name="E:\idea_workspace\WebProject\ssh_crm\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.20">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorSqlmap" />
+      <module name="generatorSqlmapCustom" />
+      <option name="WORKING_DIRECTORY" value="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JunitTest.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring整合MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cky.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cky.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cky.mybatis.test.JunitTest" />
+      <option name="METHOD_NAME" value="testMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Test" />
+      <option name="METHOD_NAME" value="testMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.testSelectOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Test" />
+      <option name="METHOD_NAME" value="testSelectOrders" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.testSelectUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.Test" />
+      <option name="METHOD_NAME" value="testSelectUserList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 8.5.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringMVC整合MyBatis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springmvc" />
+          </settings>
+        </artifact>
+        <file path="G:/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pic" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_20_WebProject" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52897" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVC整合MyBatis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssh整合:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssh_zz" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebProject" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52384" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssh整合:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.20" />
+      <item itemvalue="Application.GeneratorSqlmap" />
+      <item itemvalue="JUnit.Test.testMapper" />
+      <item itemvalue="JUnit.Test.testSelectOrders" />
+      <item itemvalue="JUnit.Test.testSelectUserList" />
+      <item itemvalue="JUnit.JunitTest.testMapper" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratorSqlmap" />
+        <item itemvalue="JUnit.JunitTest.testMapper" />
+        <item itemvalue="JUnit.Test.testSelectUserList" />
+        <item itemvalue="JUnit.Test.testMapper" />
+        <item itemvalue="JUnit.Test.testSelectOrders" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dfc6f9a-5ad4-4b6b-b211-352bc713bb70" name="Default" comment="" />
+      <created>1513419567662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513419567662</updated>
+      <workItem from="1513419576094" duration="7685000" />
+      <workItem from="1513481914684" duration="8356000" />
+      <workItem from="1513498931381" duration="1874000" />
+      <workItem from="1513596204863" duration="94000" />
+      <workItem from="1513602602990" duration="754000" />
+      <workItem from="1513604545868" duration="76000" />
+      <workItem from="1513684935932" duration="75000" />
+      <workItem from="1514115732394" duration="899000" />
+      <workItem from="1514116974590" duration="1115000" />
+      <workItem from="1514123464268" duration="39000" />
+      <workItem from="1514123579519" duration="423000" />
+      <workItem from="1514124053957" duration="510000" />
+      <workItem from="1514192552820" duration="34000" />
+      <workItem from="1514192620266" duration="358000" />
+      <workItem from="1514193501519" duration="838000" />
+      <workItem from="1515741031623" duration="6764000" />
+      <workItem from="1515825388903" duration="10038000" />
+      <workItem from="1515919711244" duration="624000" />
+      <workItem from="1515927342196" duration="1804000" />
+      <workItem from="1516005833510" duration="1266000" />
+      <workItem from="1517202756559" duration="8360000" />
+      <workItem from="1517290150868" duration="9897000" />
+      <workItem from="1517309151201" duration="789000" />
+      <workItem from="1517309990881" duration="1158000" />
+      <workItem from="1517554289427" duration="8057000" />
+      <workItem from="1517580166724" duration="87000" />
+      <workItem from="1517647767042" duration="7248000" />
+      <workItem from="1517923787350" duration="442000" />
+      <workItem from="1517987078003" duration="2851000" />
+      <workItem from="1521187079328" duration="161000" />
+      <workItem from="1523443205375" duration="1037000" />
+      <workItem from="1524306514676" duration="115000" />
+      <workItem from="1524470563870" duration="789000" />
+      <workItem from="1526385280899" duration="35000" />
+      <workItem from="1526461350266" duration="2045000" />
+      <workItem from="1531982748487" duration="117000" />
+      <workItem from="1537015031322" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JunitTest_testMapper - 2018.01.30 at 17h 36m 26s.xml">
+      <configuration name="JunitTest.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JunitTest_testMapper - 2018.01.30 at 17h 37m 38s.xml">
+      <configuration name="JunitTest.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testMapper - 2018.01.30 at 16h 35m 31s.xml">
+      <configuration name="Test.testMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectOrders - 2018.01.30 at 16h 11m 33s.xml">
+      <configuration name="Test.testSelectOrders" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectOrders - 2018.01.30 at 16h 13m 14s.xml">
+      <configuration name="Test.testSelectOrders" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectOrders - 2018.01.30 at 16h 13m 48s.xml">
+      <configuration name="Test.testSelectOrders" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectUserList - 2018.01.30 at 16h 29m 51s.xml">
+      <configuration name="Test.testSelectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectUserList - 2018.01.30 at 16h 33m 38s.xml">
+      <configuration name="Test.testSelectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectUserList - 2018.01.30 at 16h 35m 55s.xml">
+      <configuration name="Test.testSelectUserList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testSelectUserList - 2018.01.30 at 16h 37m 18s.xml">
+      <configuration name="Test.testSelectUserList" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="86925000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.16694215" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.09559939" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32928678" />
+      <window_info id="Structure" order="1" sideWeight="0.49312377" side_tool="true" weight="0.24960998" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.119119875" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983471" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3289256" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2231405" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289256" />
+      <window_info id="Persistence" order="8" sideWeight="0.2055336" side_tool="true" weight="0.2003035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6850258" visible="true" weight="0.29389313" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="5" sideWeight="0.3149742" side_tool="true" visible="true" weight="0.29389313" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" sideWeight="0.50687623" side_tool="true" weight="0.24960998" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.60925645" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.41322315" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10247934" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatorSqlmapCustom/src/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/generatorSqlmapCustom/src/GeneratorSqlmap.java" />
+    <entry file="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/Spring整合Struts2/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/com/cky/springmvc/mapper/OrdersMapper.java" />
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/com/cky/springmvc/mapper/OrdersMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/Orders.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/OrdersExample.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/OrdersMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/OrdersMapper.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/ItemsExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/jsp/itemList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/com/cky/springmvc/mapper/ItemsMapper.java" />
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/jsp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/service/ItemsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/service/ItemsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/conversion/DateConveter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/web/WEB-INF/jsp/editItem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssh整合/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EL和JSTL/web/jstl.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate_映射/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate_映射/src/com/cky/hibernate/bean/Customer.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate_映射/src/com/cky/hibernate/bean/Oder.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate_HQL/src/com/cky/hibernate/hql/entities/Department.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_helloworld/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_helloworld/src/com/cky/springmvc/handlers/SpringMVCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="215" column="7" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/mapper/ItemsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6168">
+          <caret line="257" column="25" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+          <folding>
+            <marker date="1517567509647" expanded="true" signature="4246:4394" ph="select , fro... " />
+            <marker date="1517567509647" expanded="true" signature="4481:4536" ph="delete from " />
+            <marker date="1517567509647" expanded="true" signature="4638:4655" ph="delete from " />
+            <marker date="1517567509647" expanded="true" signature="4834:5099" ph="insert into items... " />
+            <marker date="1517567509647" expanded="true" signature="6325:6351" ph="select count... items" />
+            <marker date="1517567509647" expanded="true" signature="7354:7658" ph="update items... " />
+            <marker date="1517567509647" expanded="true" signature="7831:8081" ph="update items... " />
+            <marker date="1517567509647" expanded="true" signature="8291:8815" ph="update items... " />
+            <marker date="1517567509647" expanded="true" signature="8922:9187" ph="update items... " />
+            <marker date="1517567509647" expanded="true" signature="9285:9503" ph="update items... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/junit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_helloworld/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/src/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/黑马视频/mybatis_day02/mybatis_day02/generatorSqlmapCustom/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/mapper/OderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/mymappers/Orders.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <marker date="1517301188379" expanded="true" signature="579:752" ph="SELECT o.id,... orders" />
+            <marker date="1517301188379" expanded="true" signature="1211:1384" ph="SELECT o.id,... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_CRUD/src/com/cky/springmvc/crud/handler/EmployeeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC整合MyBatis/src/com/cky/springmvc/controller/ItemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>crm32:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringMVC整合MyBatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

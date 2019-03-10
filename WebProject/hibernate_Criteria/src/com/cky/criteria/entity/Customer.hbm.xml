@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.cky.criteria.entity.Customer" table="customer" schema="test">
+        <id name="custId">
+            <column name="cust_id" sql-type="int(11)"/>
+        </id>
+        <property name="custSource">
+            <column name="cust_source" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custName">
+            <column name="cust_name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custIndustry">
+            <column name="cust_industry" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custLevel">
+            <column name="cust_level" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custLinkman">
+            <column name="cust_linkman" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custPhone">
+            <column name="cust_phone" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="custMobile">
+            <column name="cust_mobile" sql-type="varchar(255)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

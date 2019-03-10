@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="lib23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-core-spi-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-test-spi-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-test-impl-base-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/jackson-core-2.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/shrinkwrap-descriptors-api-base-2.0.0-alpha-10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/struts2-rest-plugin-2.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/shrinkwrap-api-1.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/shrinkwrap-descriptors-spi-2.0.0-alpha-10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/freemarker-2.3.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-config-impl-base-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/struts2-config-browser-plugin-2.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/asm-commons-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/shrinkwrap-spi-1.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/asm-tree-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-core-api-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/jackson-databind-2.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/shrinkwrap-impl-base-1.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/struts2-core-2.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/xmlpull-1.1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/log4j-api-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-container-test-impl-base-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/json-lib-2.3-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/asm-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-container-impl-base-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/jackson-annotations-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-core-impl-base-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-container-test-api-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/struts2-convention-plugin-2.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-config-api-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-lang3-3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/ognl-3.1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-beanutils-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-junit-core-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/xstream-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-junit-container-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-lang-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/log4j-core-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-container-test-spi-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-container-spi-1.1.13.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Struts2_war_exploded/WEB-INF/lib/arquillian-test-api-1.1.13.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

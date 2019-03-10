@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--指定Spring IOC容器扫描的包-->
+    <!--可以通过rsource-pattern指定扫描的资源-->
+    <!-- <context:exclude-filter 子节点指定排除哪些指定表达式-->
+    <!--<context:inclide-filter 子节点指定包含哪些表达式的组件，要和use-default-filters配合使用-->
+    <context:component-scan base-package="com.cky.spring.annotation">
+        <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"></context:include-filter>-->
+
+    </context:component-scan>
+</beans>
