@@ -2,6 +2,7 @@ package com.cky.controller;
 
 import com.cky.enums.OperatorFriendRequestTypeEnum;
 import com.cky.enums.SearchFriendsStatusEnum;
+import com.cky.netty.UserChannelRel;
 import com.cky.pojo.ChatMsg;
 import com.cky.pojo.Users;
 import com.cky.pojo.bo.UsersBO;
@@ -12,10 +13,13 @@ import com.cky.utils.FastDFSClient;
 import com.cky.utils.FileUtils;
 import com.cky.utils.IMoocJSONResult;
 import com.cky.utils.MD5Utils;
+import io.netty.channel.Channel;
+import java.util.HashMap;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -253,6 +257,11 @@ public class UserController {
 
         List<ChatMsg> unReadMsgList = userService.getUnReadMsgList(acceptUserId);
         return IMoocJSONResult.ok(unReadMsgList);
+    }
+
+    @GetMapping("/getOnlineUser")
+    public HashMap<String, Channel> getOnlineUser(){
+        return UserChannelRel.getManager();
     }
 
 }

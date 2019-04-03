@@ -28,5 +28,7 @@ public class UserChannelRel {
         }
     }
 
-
+    public static HashMap<String, Channel> getManager() {
+        return manager;
+    }
 }

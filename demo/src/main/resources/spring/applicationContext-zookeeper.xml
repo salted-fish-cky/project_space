@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+		
+	<!--<description>zookeeper 放入Spring容器中，项目启动加载的时候就建立和zk的连接</description>-->
+
+	<!--&lt;!&ndash;创建重连的策略&ndash;&gt;-->
+	<!--<bean id="retryPolicy" class="org.apache.curator.retry.ExponentialBackoffRetry">-->
+		<!--&lt;!&ndash;每次重连的等待时间&ndash;&gt;-->
+		<!--<constructor-arg index="0" value="1000"/>-->
+		<!--&lt;!&ndash;设置重连的次数&ndash;&gt;-->
+		<!--<constructor-arg index="1" value="5"/>-->
+
+	<!--</bean>-->
+
+	<!--&lt;!&ndash;创建zookeeper客户端&ndash;&gt;-->
+	<!--<bean id="client" class="org.apache.curator.framework.CuratorFrameworkFactory"-->
+		  <!--factory-method="newClient">-->
+
+		<!--<constructor-arg index="0" value="${zookeeper.server}"/>-->
+		<!--<constructor-arg index="1" ref="retryPolicy"/>-->
+	<!--</bean>-->
+
+	<!--&lt;!&ndash;客户端配置&ndash;&gt;-->
+	<!--<bean id="ZKCurator" class="com.cky.service.utils.ZKCurator" init-method="init">-->
+
+		<!--<constructor-arg index="0" ref="client"/>-->
+	<!--</bean>-->
+</beans>

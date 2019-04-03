@@ -12,6 +12,7 @@ import io.netty.handler.timeout.IdleStateHandler;
 public class WSServerInitialzer extends ChannelInitializer<SocketChannel> {
 
 
+    @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         ChannelPipeline pipeline =
                 socketChannel.pipeline();

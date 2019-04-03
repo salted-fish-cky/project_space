@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="231f56e6-3a64-43a6-b541-ea17e6fcab34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/spring/applicationContext-transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/spring/applicationContext-zookeeper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/entity/ChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/entity/FriendsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/entity/MyFriends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/mapper/ChatMsgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/mapper/FriendsRequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/mapper/MyFriendsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/IChatMsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/IFriendsRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/IMyFriendsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/IUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/impl/ChatMsgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/impl/FriendsRequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/impl/MyFriendsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/java/com/cky/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/resources/mapper/ChatMsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/resources/mapper/FriendsRequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/resources/mapper/MyFriendsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-plus-generator/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video-admin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../宜立方商城/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-examples-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-weather/msa-weather-eureka-client-zuul/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-weather/msa-weather-eureka-client-zuul/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video-admin/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video-admin/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video-admin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video-admin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video-admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video-admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video-admin/video-admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_springboot__1__war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_springboot__1__war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_springboot_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_springboot_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_web_springboot_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_web_springboot_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_cart_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_content_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_content_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_item_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_item_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_manager_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_manager_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_manager_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_manager_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_order_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_order_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_order_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_order_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_portal_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_portal_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_search_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_search_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_search_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_search_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_sso_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_sso_service_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_sso_web_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3_sso_web_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3cartspringboot_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/artifacts/e3cartspringboot_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../宜立方商城/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../宜立方商城/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_alibaba_dubbo_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_4_2_fix.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__com_github_sgroschupf_zkclient_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_fileupload_commons_fileupload_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__fastdfs_client_fastdfs_client_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__javax_servlet_jsp_api_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__javax_servlet_servlet_api_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__jstl_jstl_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_jms_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_jms_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../宜立方商城/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../宜立方商城/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart-service-springboot/e3-cart-interface-springboot/e3-cart-interface-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart-service-springboot/e3-cart-service-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart-service-springboot/e3-cart-services-springboot/e3-cart-services-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart-web-springboot/e3-cart-web-springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart-web/e3-cart-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart/e3-cart-interface/e3-cart-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart/e3-cart-service/e3-cart-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-cart/e3-cart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-common/e3-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-content/e3-content-interface/e3-content-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-content/e3-content-service/e3-content-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-content/e3-content.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-item-web/e3-item-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager-web/e3-manager-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager/e3-manager-dao/e3-manager-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager/e3-manager-interface/e3-manager-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager/e3-manager-pojo/e3-manager-pojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager/e3-manager-service/e3-manager-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-manager/e3-manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-order-web/e3-order-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-order/e3-order-interface/e3-order-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-order/e3-order-service/e3-order-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-order/e3-order.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-portal-web/e3-portal-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-search-web/e3-search-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-search/e3-search-interface/e3-search-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-search/e3-search-service/e3-search-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-search/e3-search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-sso-web/e3-sso-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-sso/e3-sso-interface/e3-sso-interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-sso/e3-sso-service/e3-sso-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../宜立方商城/e3-sso/e3-sso.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/provider-api/target/" />
+    <ignored path="$PROJECT_DIR$/provider/target/" />
+    <ignored path="$PROJECT_DIR$/providerc/target/" />
+    <ignored path="$PROJECT_DIR$/consumer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/config/ServiceConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="268" column="50" lean-forward="true" selection-start-line="268" selection-start-column="50" selection-end-line="268" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-api/src/main/java/com/demo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/providerc/src/main/resources/dubbo/dubbo-provider.xml.fxml" />
+        <option value="$PROJECT_DIR$/providerc/src/main/java/com/test/ProvidercApplication.java" />
+        <option value="$PROJECT_DIR$/providerc/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/demo/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/demo/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/demo/Controller.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/demo/controller/UserContrller.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/demo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/providerc/src/main/java/com/test/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/providerc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/providerc/src/main/resources/dubbo/dubbo-provider.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="G:\apache-maven-3.6.0\maven-repository" />
+        <option name="mavenHome" value="G:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="G:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbo-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553844000389" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvidercApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="providerc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ProvidercApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="231f56e6-3a64-43a6-b541-ea17e6fcab34" name="Default Changelist" comment="" />
+      <created>1553768243580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553768243580</updated>
+      <workItem from="1553768247449" duration="6328000" />
+      <workItem from="1553822141395" duration="3145000" />
+      <workItem from="1553840030942" duration="266000" />
+      <workItem from="1553843500061" duration="515000" />
+      <workItem from="1553848471136" duration="1688000" />
+      <workItem from="1554082547780" duration="1718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13660000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30694142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/provider-api/src/main/java/com/demo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.RELEASE/spring-boot-autoconfigure-1.5.19.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.RELEASE/spring-boot-autoconfigure-1.5.19.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfigurationImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.RELEASE/spring-boot-autoconfigure-1.5.19.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providerc/src/test/java/com/test/ProvidercApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/providerc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/demo/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/demo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providerc/src/main/java/com/test/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/demo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providerc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providerc/src/main/resources/dubbo/dubbo-provider.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/demo/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/providerc/src/main/java/com/test/ProvidercApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/demo/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" selection-start-column="92" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/META-INF/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/META-INF/dubbo/internal/com.alibaba.dubbo.cache.CacheFactory">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/config/spring/schema/DubboNamespaceHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/config/ServiceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="268" column="50" lean-forward="true" selection-start-line="268" selection-start-column="50" selection-end-line="268" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>provider-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
