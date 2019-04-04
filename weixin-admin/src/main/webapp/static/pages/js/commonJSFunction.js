@@ -14,10 +14,10 @@ var Common = function () {
         },
         
         // 时间戳转换成指定日期格式
-        formatTime: function(time, format) {
+        formatTime: function(time, format) {debugger;
 	    	var t = new Date(time);
     	    var tf = function(i){return (i < 10 ? '0' : '') + i};
-    	    return format.replace(/yyyy|MM|dd|HH|mm|ss/g, function(a){
+    	    return format.replace(/yyyy|MM|dd|HH|mm|ss/g, function(a){debugger;
     	        switch(a){
     	            case 'yyyy':
     	                return tf(t.getFullYear());

@@ -50,22 +50,9 @@ var UsersReportsList = function () {
                         return img;
                     }
                 },
-                // { name: 'createDate', index: 'dealUsername', width: 30, sortable: false },
-                // { name: 'videoPath', index: 'videoPath', width: 30, sortable: false,
-                // 	formatter:function(cellvalue, options, rowObject) {
-                // 		var src = apiServer + cellvalue;
-                // 		var display = "<a href='" + src + "' target='_blank'>点我播放</a>"
-			    // 		return display;
-			    // 	}
-                // },
-                // { name: 'status', index: 'status', width: 40, sortable: false, hidden: false,
-                // 	formatter:function(cellvalue, options, rowObject) {
-			    // 		return cellvalue==1 ? '正常' : '禁播';
-			    // 	}
-			    // },
-                // { name: 'submitUsername', index: 'submitUsername', width: 20, sortable: false },
-                { name: 'createDate', index: 'createDate', width: 40, sortable: false, hidden: false,
-                	formatter:function(cellvalue, options, rowObject) {
+
+                { name: 'createTime', index: 'createTime', width: 40, sortable: false, hidden: false,
+                	formatter:function(cellvalue, options, rowObject) {debugger;
                 		var createTime = Common.formatTime(cellvalue,'yyyy-MM-dd HH:mm:ss');
 			    		return createTime;
 			    	}

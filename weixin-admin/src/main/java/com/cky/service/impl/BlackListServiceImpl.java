@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
 import javax.print.attribute.standard.PageRanges;
+import lombok.extern.slf4j.Slf4j;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author caokeyu
  * @since 2019-04-01
  */
+@Slf4j
 @Service
 public class BlackListServiceImpl extends ServiceImpl<BlackListMapper, BlackList> implements IBlackListService {
 
@@ -71,6 +73,7 @@ public class BlackListServiceImpl extends ServiceImpl<BlackListMapper, BlackList
         List<BlackListResp> blackListResps = records.stream().map(bl -> {
             Users user = usersMapper.selectById(bl.getUserId());
             BlackListResp blackListResp = new BlackListResp();
+            log.info("createDate:{}"+bl.getCreateTime());
             BeanUtils.copyProperties(bl, blackListResp);
             blackListResp.setUsername(user.getUsername());
             blackListResp.setFaceImage(user.getFaceImage());

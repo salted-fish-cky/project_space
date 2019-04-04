@@ -16,11 +16,13 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
 import javax.print.attribute.standard.PageRanges;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -31,6 +33,7 @@ import org.springframework.web.client.RestTemplate;
  * @author caokeyu
  * @since 2019-04-01
  */
+@Slf4j
 @Service
 public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements IUsersService {
 
@@ -60,22 +63,26 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users> implements
             return usersResp;
         }).collect(Collectors.toList());
         Map<String,Object> map = null;
-        ResponseEntity<String> responseEntity = restTemplate.getForEntity(ISNOLINE_URL, String.class);
-        if (responseEntity.getStatusCodeValue() == 200){
-            String body = responseEntity.getBody();
-            map = JsonUtils.jsonToPojo(body, Map.class);
-        }
-
-        if (map != null && map.size() != 0) {
-            for (String key : map.keySet()) {
-                for (UsersResp ur: usersResps) {
-                    if (key.equals(ur.getId()) && map.get(key) != null && !"".equals(map.get(key))) {
-                        ur.setIsOnline(1);
-                        break;
-                    }
-                }
-
+        try {
+            ResponseEntity<String> responseEntity = restTemplate.getForEntity(ISNOLINE_URL, String.class);
+            if (responseEntity.getStatusCodeValue() == 200){
+                String body = responseEntity.getBody();
+                map = JsonUtils.jsonToPojo(body, Map.class);
             }
+
+            if (map != null && map.size() != 0) {
+                for (String key : map.keySet()) {
+                    for (UsersResp ur: usersResps) {
+                        if (key.equals(ur.getId()) && map.get(key) != null && !"".equals(map.get(key))) {
+                            ur.setIsOnline(1);
+                            break;
+                        }
+                    }
+
+                }
+            }
+        } catch (RestClientException e) {
+            log.error("请求失败：{}",e);
         }
 
         PagedResult pagedResult = new PagedResult();
