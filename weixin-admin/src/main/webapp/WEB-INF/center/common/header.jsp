@@ -7,9 +7,10 @@
     <div class="page-header-inner ">
         <!-- BEGIN LOGO -->
         <div class="page-logo">
-            <a href="<%=request.getContextPath()%>/">
-                <img src="<%=request.getContextPath()%>/static/pages/img/logos/logo.png" alt="logo" class="logo-default" /> 
-            </a>
+            <%--<a href="<%=request.getContextPath()%>/">--%>
+                <%--<img src="<%=request.getContextPath()%>/static/pages/img/logos/logo.png" alt="logo" class="logo-default" />--%>
+                <h4 style="color: white" class="logo-default">仿微信后台管理</h4>
+            <%--</a>--%>
             <div class="menu-toggler sidebar-toggler" style="width: 19px; height: 19px;">
                 <span style="top: 8px;"></span>
             </div>

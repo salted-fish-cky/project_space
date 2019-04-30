@@ -43,7 +43,8 @@
         <!-- BEGIN LOGO -->
         <div class="logo">
             <a href="<%=request.getContextPath()%>/">
-                <img src="<%=request.getContextPath()%>/static/pages/img/logos/logo.png" /> 
+                <%--<img src="<%=request.getContextPath()%>/static/pages/img/logos/logo.png" /> --%>
+                <h2>仿微信后台管理</h2>
             </a>
         </div>
         <!-- END LOGO -->
@@ -56,7 +57,7 @@
                     <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                     <label class="control-label visible-ie8 visible-ie9">用户名</label>
                     <div id="input-error">
-                    	<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="用户名" name="username" value="cky" /> </div>
+                    	<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="用户名" name="username" value="admin" /> </div>
                     </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">密码</label>

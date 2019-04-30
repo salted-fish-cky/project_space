@@ -1,6 +1,5 @@
 package com.cky.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -12,7 +11,6 @@ import com.cky.model.UserReportResp;
 import com.cky.service.IUserReportService;
 import com.cky.util.PagedResult;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.BeanUtils;
